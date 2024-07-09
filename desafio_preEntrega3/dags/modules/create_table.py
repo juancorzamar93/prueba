@@ -1,4 +1,4 @@
-        
+     
 from sqlalchemy import create_engine
 from parameters import REDSHIFT_USERNAME, REDSHIFT_PASSWORD, REDSHIFT_HOST, REDSHIFT_DB, REDSHIFT_PORT, REDSHIFT_TABLE
 
