@@ -10,7 +10,7 @@ def create_table():
         create_table_query = f"""
         CREATE TABLE IF NOT EXISTS {REDSHIFT_TABLE}(
             currency VARCHAR,
-            rate FLOAT,
+            rate VARCHAR,
             base VARCHAR,
             date DATE,
             timestamp TIMESTAMP,
