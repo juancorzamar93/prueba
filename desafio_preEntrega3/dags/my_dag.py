@@ -100,6 +100,7 @@ def main():
     try:
         create_table()
         data = extract_data(API_URL)
+        
         if data:
             transformed_data = transform_data(data)
             cleaned_data = clean_data(transformed_data)
